@@ -34,12 +34,14 @@ monitors:
 
   - id: clarkmerrick
     name: clarkmerrick.com
+    description: 'The main one'
     url: 'https://clarkmerrick.com/'
     method: GET
     expectStatus: 200
 
   - id: voipsuite
     name: voip.clarkmerrick.com
+    description: 'Telephony'
     url: 'https://voip.clarkmerrick.com/'
     method: GET
     expectStatus: 200
